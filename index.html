@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link href="estilo.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div> 
+            <input type="text" id="numero-uno" size="2">
+            <input type="text" id="numero-dos" size="2">
+            </br></br>
+            <input type="button" onclick="calculadora.sumar()" value="+">
+            <input type="button" onclick="calculadora.restar()" value="-">
+            <input type="button" onclick="calculadora.multiplicar()" value="*">
+            <input type="button" onclick="calculadora.dividir()" value="/">
+
+            <p>Total: <span id="total"></span></p>
+        </div>       
+        
+        <script src="main_calculadora.js"></script>
+    </body>
+</html>
